@@ -301,7 +301,7 @@ function lifeSkills(data, campus = campusDefault, cohort = cohortDefault) {
 // --- fin funcionalidad de Life Skills
 
 // *** inicio funcionalidad de Student satisfaction
-
+debugger;
 function getStudentSatisfaction(ratings) {
   var studentSatisfaction = 0;
   // ultimo sprint
@@ -315,7 +315,7 @@ function getStudentSatisfaction(ratings) {
 
 function studentSatisfaction(data, campus = campusDefault, cohort = cohortDefault) {
   var ratings = getRatings(data, campus, cohort);
-  
+
   return getStudentSatisfaction(ratings);
 }
 
