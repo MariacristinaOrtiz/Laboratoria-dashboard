@@ -1,3 +1,4 @@
+debugger;
 function getScores(student) {
   var objScores = {};
   var sprints = student.sprints;
@@ -6,7 +7,7 @@ function getScores(student) {
 
   for (var i = 0; i < totalSprints; i++) {
     var sprint = sprints[i];
-    
+
     techTotal += sprint.score.tech;
     hseTotal += sprint.score.hse;
   }
