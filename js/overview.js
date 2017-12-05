@@ -323,7 +323,7 @@ function studentSatisfaction(data, campus = campusDefault, cohort = cohortDefaul
 // --- fin funcionalidad de Student satisfaction
 
 // *** inicio funcionalidad de Teacher reating
-
+debugger;
 function getLastTeacherRating(ratings) {
   var teacherRating = 0;
   // ultimo sprint
