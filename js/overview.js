@@ -235,7 +235,7 @@ function techSkills(data, campus = campusDefault, cohort = cohortDefault) {
 // --- fin funcionalidad de Tech Skills
 
 // *** inicio funcionalidad de Life Skills
-
+debugger;
 function getHseAverage(students) {
   var targetedStudents = 0, overallHse = 0;
   var totalStudents = students.length;
