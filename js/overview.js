@@ -138,7 +138,7 @@ function achievement(data, campus = campusDefault, cohort = cohortDefault) {
 // fin de funcionalidad de Achievement
 
 // inicio de funcionalidad de Net promoter score
-
+debugger;
 function getProPasDet(ratings) {
   var obj = {};
   var promoters = 0, passive = 0, detractors = 0;
@@ -176,7 +176,7 @@ function netPrometerScore(data, campus = campusDefault, cohort = cohortDefault) 
   var objNetPrometerScore = getNetPrometerScore(data, campus, cohort);
 
   objNetPrometerScore.nps = calcNetPrometerScore(objNetPrometerScore.promotersPercent, objNetPrometerScore.detractorsPercent);
-  
+
   return objNetPrometerScore;
 }
 
