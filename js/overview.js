@@ -184,7 +184,6 @@ var temp = netPrometerScore(data);
 // --- fin de funcionalidad de Net promoter score
 
 // *** inicio funcionalidad de Tech Skills
-
 function getTechTargetedStudents(students) {
   var targetedStudents = 0;
   var totalStudents = students.length;
